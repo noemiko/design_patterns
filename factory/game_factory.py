@@ -105,7 +105,7 @@ def validate_chosen_game(user_name):
 
 
 def main():
-    user_name = input("Hello. What"s your name? ")
+    user_name = input("Hello. What's your name? ")
     is_valid_input = False
     while not is_valid_input:
         is_valid_input, game_number = validate_chosen_game(user_name)
